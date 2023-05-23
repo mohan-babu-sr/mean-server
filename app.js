@@ -7,7 +7,7 @@ const postsRouters = require('./routes/posts');
 const userRouters = require('./routes/user');
 const path = require("path");
 
-mongoose.connect(`mongodb+srv://mean:${process.env.MONGO_ATLAS_PW}@mean-stack.yuktkry.mongodb.net/mean-stack?retryWrites=true&w=majority`).then(() => {
+mongoose.connect(`mongodb+srv://mean:lVzpo2pRxNgMoIfh@mean-stack.yuktkry.mongodb.net/mean-stack?retryWrites=true&w=majority`).then(() => {
     console.log("Connected to Database!");
 }).catch(() => {
     console.log("Connection failed!");
